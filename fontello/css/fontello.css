@@ -62,7 +62,7 @@
 .icon-user-1:before { content: '\e804'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; font-size: 76px; margin-top: 35px; } /* '' */
+.icon-github-circled:before { content: '\f09b'; font-size: 76px; margin-top: 20px; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; font-size: 76px; margin-top: 20px; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; font-size: 76px; margin-top: 35px;} /* '' */
@@ -70,4 +70,4 @@
 .icon-keyboard:before { content: '\f11c'; } /* '' */
 .icon-youtube:before { content: '\f167'; } /* '' */
 .icon-graduation-cap:before { content: '\f19d'; font-size: 76px; margin-top: 20px;} /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; font-size: 76px; margin-top: 35px;} /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; font-size: 76px; margin-top: 20px;} /* '' */

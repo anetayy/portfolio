@@ -1,17 +1,17 @@
-function odliczanie()
+function counting()
 	{
-		var dzisiaj = new Date();
+		var today = new Date();
 		
-		var godzina = dzisiaj.getHours();
-		if (godzina<10) godzina = "0"+godzina;
+		var hour = today.getHours();
+		if (hour<10) hour = "0"+hour;
 		
-		var minuta = dzisiaj.getMinutes();
-		if (minuta<10) minuta = "0"+minuta;
+		var minute = today.getMinutes();
+		if (minute<10) minute = "0"+minute;
 		
-		var sekunda = dzisiaj.getSeconds();
-		if (sekunda<10) sekunda = "0"+sekunda;
+		var secons = today.getSeconds();
+		if (secons<10) secons = "0"+secons;
 		
-		document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda;
+		document.getElementById("clock").innerHTML = hour+":"+minute+":"+secons;
 		 
-		 setTimeout("odliczanie()",1000);
+		 setTimeout("counting()",1000);
 	}

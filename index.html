@@ -1,89 +1,132 @@
-<!DOCTYPE HTML>
-<html lang="pl">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	
-	<title>Aneta Kozak - Portfolio</title>
-	
-	<meta name="description" content ="Portfolio. Kikla słów o mnie i drodze do zostania testerm." />
-	<meta name="keywords" content="tester, QA, praca, zatrudnię" />
-	
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
-	
-	<script src="timer.js"></script>
-	
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body onload="odliczanie();">
+    <title>Aneta Kozak - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
-	<div id="container">
-	
-		<div class="rectangle">
-			<div id="logo"><a href="index.html" class="tilelinkhtml5">Aneta Kozak</a></div>
-			<div id="zegar">12:00:00</div>
-			<div style="clear: both"></div>
-		</div>
-		
-		<div class="square">
-			<div class="tile1">
-				<a href="aboutme.html" class="tilelink"><i class="icon-user"></i><br /> About me</a>
-			</div>
-			
-			<a href="projects.html" class="tilelinkhtml5">
-				<div class="tile2">
-					<i class="icon-folder-open"></i><br /> Projects
-				</div>
-			</a>
-			<div style="clear: both"></div>
-			
-			<a href="CV_Aneta_Kozak.pdf" download target="__blank" class="tilelinkhtml5">
-				<div class="tile3">
-					<i class="icon-graduation-cap"></i><br /> Curriculum Vitae
-				</div>
-			</a>
-			
-			<a href="contact.html" class="tilelinkhtml5">
-				<div class="tile4">
-					<i class="icon-mail-alt"></i><br /> Contact me
-				</div>
-			</a>
-			<div style="clear: both"></div>
-			
-			<div class="tile5">
-				<i>“The way to get started is to quit talking and begin doing."</i><br /> - Walt Disney
-			</div>
-		</div>
-		
-		<div class="square">
-			<div class="tile6">
-				Helo! <br /><br /> On this website I would like to present my knowledge and skills that I have gained and which I am still improving to become the best candidate for the position of a tester. I hope that thanks to the projects I have created, I will prove my determination, willingness to learn and openness to new challenges.
-			</div>
-			
-			<a href="https://www.linkedin.com/in/aneta-kozak-2576871a3/?trk=people-guest_people_search-card&originalSubdomain=pl" target="__blank" class="tilelinkhtml5">
-			<div class="linkedin">
-				<i class="icon-linkedin-squared"></i>
-			</div>
-			
-			<a href="https://github.com/anetayy?tab=repositories" target="__blank" class="tilelinkhtml5">
-				<div class="github">
-					<i class="icon-github-circled"></i>
-				</div>
-			</a>
-			
-			<div style="clear: both"></div>
-		</div>
-		<div style="clear: both;"></div>
-		
-		<div class="rectangle">
-			<div class="rectangle">2021 &copy; Aneta Kozak - Portfolio</div>
-		</div>
-	
-	</div>
+    <script src="timer.js"></script>
+    <style>
+      /*[class*="col"] {
+        padding: 1reml;
+        background-color: blue;
+        border: 2px solid yellow;
+        color: #fff;
+        text-align: center;
+      }
 
-</body>
+      [class*="con"] {
+        padding: 1reml;
+        background-color: yellow;
+        border: 2px solid red;
+        text-align: center;
+      }*/
+    </style>
+  </head>
+  <body onload="counting();">
 
+    <div class="container">
+      <div class="row mt-md-4">
+        <div class="col-md-6">
+          <div class="p-md-3" id="logo">
+            <a href="index.html" class="tilelinkhtml5">Aneta Kozak</a>
+          </div>
+        </div>
+        <div class="col-md-6"> 
+          <div class=" p-md-3" id="clock">12:00:00</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row test">
+            <div class="col-md-6 no-padding fill-container">  
+              <div class="p-md-4 m-md-2 tile1 fill">
+                <a href="aboutme.html" class="tilelink">
+                  <i class="icon-user">              
+                  </i>
+                  <br/>
+                  About me        
+                </a>
+              </div>                                                
+            </div>
+            <div class="col-md-6 no-padding fill-container">
+              <div class="p-md-4 m-md-2 tile2 fill">
+                <a href="projects.html" class="tilelink">
+                  <i class="icon-folder-open"></i>
+                  <br/>
+                  Projects
+                </a>
+              </div>              
+            </div>
+          </div>
+          <div class="row test">
+            <div class="col-md-6 no-padding fill-container">
+              <div class="p-md-4 m-md-2 tile3 fill">
+                <a href="CV_Aneta_Kozak.pdf" download target="__blank" class="tilelink">
+                  <i class="icon-graduation-cap"></i>
+                  <br/> 
+                  Curriculum Vitae
+                </a>
+              </div>              
+            </div>
+            <div class="col-md-6 no-padding fill-container">
+              <div class="p-md-4 m-md-2 tile4 fill">
+                <a href="contact.html" class="tilelink">           
+                  <i class="icon-mail-alt"></i>
+                  <br/> 
+                  Contact me            
+                </a>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 no-padding fill-container">
+          <div class="p-md-4 m-md-2 tile6 fill">
+            <p><h1>Helo!</h1> <br /> On this website I would like to present my knowledge and skills that I have gained and which I am still improving to become the best candidate for the position of a tester. I hope that thanks to the projects I have created, I will prove my determination, willingness to learn and openness to new challenges.
+            </p>
+          </div>          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 no-padding">
+          <div class="p-md-4 m-md-2 tile5">
+            <i>“The way to get started is to quit talking and begin doing."</i><br /> - Walt Disney
+          </div>          
+        </div>
+        <div class="col-md-3 no-padding fill-container">
+          <div class="p-md-4 m-md-2 linkedin fill">
+            <a href="https://www.linkedin.com/in/aneta-kozak-2576871a3/?trk=people-guest_people_search-card&originalSubdomain=pl" target="_blank" class="tilelink">            
+              <i class="icon-linkedin-squared no-margin"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 no-padding fill-container">
+          <div class="p-md-4 m-md-2 github fill">
+            <a href="https://github.com/anetayy?tab=repositories" target="__blank" class="tilelink">          
+              <i class="icon-github-circled no-margin"></i>
+            </a>
+          </div>   
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 no-padding">
+          <div class="p-md-4 m-md-2 rectangle">
+            2021 &copy; Aneta Kozak - Portfolio
+          </div>          
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
 </html>

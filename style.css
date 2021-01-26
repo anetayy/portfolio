@@ -6,55 +6,55 @@ body
 	font-size: 20px;
 }
 
-#container
+/*#container
 {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 .rectangle
 {
-	width: 960px;
-	margin: 20px;
+/*	width: 960px;
+	margin: 20px;*/
 	text-align: center;
-	line-height: 150%;
+	/*line-height: 150%;*/
 }
 
-.square
+/*.square
 {
 	width:50%;
 	float:left;
-}
+}*/
 
 #logo
 {
-	width: 600px;
-	float: left;
+	/*width: 600px;
+	float: left;*/
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+/*	margin-top: 10px;
+	margin-bottom: 10px;*/
 	text-align: left;
 }
 
-#zegar
+#clock
 {
-	float: left;
+	/*float: left;*/
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: left;
+/*	margin-top: 10px;
+	margin-bottom: 10px;*/
+	text-align: center;
 }
 
 .tile1
 {
-	margin: 10px;
+/*	margin: 10px;
 	width: 230px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #3095d3;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .tile1:hover
@@ -64,11 +64,11 @@ body
 
 .tile2
 {
-	margin: 10px;
+	/*margin: 10px;
 	width: 230px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #ee5232;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .tile2:hover
@@ -78,11 +78,11 @@ body
 
 .tile3
 {
-	width: 230px;
+	/*width: 230px;
 	margin: 10px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #666666;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .tile3:hover
@@ -92,11 +92,11 @@ body
 
 .tile4
 {
-	width: 230px;
+	/*width: 230px;
 	margin: 10px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #93c748;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .tile4:hover
@@ -106,34 +106,34 @@ body
 
 .tile5
 {
-	width: 450px;
+	/*width: 450px;
 	margin: 10px;
-	height: 112px;
+	height: 112px;*/
 	background-color: #ee5232;
 	text-align: center;
 	font-size: 26px;
-	padding: 15px;
-	line-height: 150%;
+	/*padding: 15px;
+	line-height: 150%;*/
 }
 
 .tile6
 {
-	width: 430px;
+	/*width: 430px;
 	margin: 10px;
-	height: 254px;
+	height: 254px;*/
 	background-color: #666666;
 	text-align: justify;
-	padding: 25px;
+	/*padding: 25px;*/
 	font-size: 22px;
 }
 
 .linkedin
 {
-	margin: 10px;
+	/*margin: 10px;
 	width: 230px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #0e76a8;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .linkedin:hover
@@ -143,11 +143,11 @@ body
 
 .github
 {
-	margin: 10px;
+	/*margin: 10px;
 	width: 230px;
-	height: 142px;
+	height: 142px;*/
 	background-color: #666666;
-	float: left;
+	/*float: left;*/
 	text-align: center;
 }
 .github:hover
@@ -160,37 +160,52 @@ a.tilelink
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
-	width: 230px;
-	height: 142px;
+	/*width: 230px;
+	height: 142px;*/
 }
 a.tilelinkhtml5
 {
 	color: #ffffff;
 	text-decoration: none;
 }
+a.backToMainPage
+{
+	margin: 20px;
+}
 
 .rectangle2
 {
-	width: 920px;
+	/*width: 920px;
 	min-height: 700px;
-	padding: 20px;
+	padding: 20px;*/
 	text-align: center;
-	line-height: 150%;
+	/*line-height: 150%;*/
 	background-color: #666666;
 	font-family:  'Lato', sans-serif;
+	padding: 25px;
 }
 .text
 {
-	width: 600px;
-	float: left;
-	font-size: 20px;
 	text-align: justify;
-	padding: 10px;
+	padding: 25px;
 }
 .photo
 {
-	width: 10;
-	float: left;
-	padding: 10px;
-	text-align: right;
+	padding: 25px;
+}
+
+.no-padding{ padding:0; }
+.no-border{ border:none; }
+.no-margin{ margin:0; }
+
+.fill-container {
+	display: flex;
+}
+
+.fill {
+	flex-grow: 1;
+}
+
+.test {
+	height:50%;
 }
