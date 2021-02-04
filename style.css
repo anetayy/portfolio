@@ -209,3 +209,55 @@ a.backToMainPage
 .test {
 	height:50%;
 }
+
+.list-group-item
+{
+	background-color: #93c748;
+	color: #ffffff;
+	text-align: left;
+}
+
+.list-group-item:hover
+{
+	color: #ffffff;
+	background-color: #666666;
+}
+h3
+{
+	text-align: center;
+}
+p 
+{ 
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.project_menu
+{
+
+	text-align: center;
+	background-color: #93c748;
+	font-family:  'Lato', sans-serif;
+	padding: 25px;
+}
+.project1
+{
+
+	text-align: center;
+	background-color: #3095d3;
+	font-family:  'Lato', sans-serif;
+	padding: 25px;
+}
+
+.project2
+{
+	text-align: center;
+	background-color: #ee5232;
+	font-family:  'Lato', sans-serif;
+	padding: 25px;
+}
+
+.text1
+{
+	padding-top: 25px;
+}

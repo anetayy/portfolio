@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 
     <script src="timer.js"></script>
-    <style>
-
-    </style>
   </head>
   <body onload="counting();">
 
@@ -31,79 +28,86 @@
           <div class=" p-md-3" id="clock">12:00:00</div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="row test">
-            <div class="col-md-6 no-padding fill-container">  
-              <div class="p-md-4 m-md-2 tile1 fill">
-                <a href="aboutme.html" class="tilelink">
-                  <i class="icon-user">              
-                  </i>
-                  <br/>
-                  About me        
-                </a>
-              </div>                                                
-            </div>
-            <div class="col-md-6 no-padding fill-container">
-              <div class="p-md-4 m-md-2 tile2 fill">
-                <a href="projects.html" class="tilelink">
-                  <i class="icon-folder-open"></i>
-                  <br/>
-                  Projects
-                </a>
-              </div>              
-            </div>
-          </div>
-          <div class="row test">
-            <div class="col-md-6 no-padding fill-container">
-              <div class="p-md-4 m-md-2 tile3 fill">
-                <a href="CV_Aneta_Kozak.pdf" download target="__blank" class="tilelink">
-                  <i class="icon-graduation-cap"></i>
-                  <br/> 
-                  Curriculum Vitae
-                </a>
-              </div>              
-            </div>
-            <div class="col-md-6 no-padding fill-container">
-              <div class="p-md-4 m-md-2 tile4 fill">
-                <a href="contact.html" class="tilelink">           
-                  <i class="icon-mail-alt"></i>
-                  <br/> 
-                  Contact me            
-                </a>
-              </div>              
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 no-padding fill-container">
-          <div class="p-md-4 m-md-2 tile6 fill">
-            <p><h1>Projects</h1> <br />The website is under construction.<br ><br /> Access to projects at the link: 
-			<a href="https://github.com/anetayy?tab=repositories" target="__blank" class="tilelink"> https://github.com/anetayy?tab=repositories </a>
-            </p>
-          </div>          
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 no-padding">
-          <div class="p-md-4 m-md-2 tile5">
-            <i>“The way to get started is to quit talking and begin doing."</i><br /> - Walt Disney
-          </div>          
-        </div>
-        <div class="col-md-3 no-padding fill-container">
-          <div class="p-md-4 m-md-2 linkedin fill">
-            <a href="https://www.linkedin.com/in/aneta-kozak-2576871a3/?trk=people-guest_people_search-card&originalSubdomain=pl" target="_blank" class="tilelink">            
-              <i class="icon-linkedin-squared no-margin"></i>                      
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3 no-padding fill-container">
-          <div class="p-md-4 m-md-2 github fill">
-            <a href="https://github.com/anetayy?tab=repositories" target="__blank" class="tilelink">          
-              <i class="icon-github-circled no-margin"></i>                    
-            </a>
-          </div>   
-        </div>
-      </div>
+	
+		<div class="row mt-md-4 project_menu">
+			<div class="col-md-12">
+				<h1>Projects</h1>
+			</div>
+			
+			<div class="col-md-12">
+				<p>Below I present a few of my projects with their brief description:</p>
+				<ul class="list-group">
+						<a href="#scroll1" class="list-group-item list-group-item">1. CRUD Web Application</a>
+						<a href="#scroll2" class="list-group-item list-group-item">2. Other small projects</a>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row mt-md-4 project1" id="scroll1">
+			<div class="col-md-12 text">
+				<h3>CRUD Web Application</h3>
+				<p>
+					It is simple CRUD (Create Read Update Delete) application that allows for managing Students data. The user has the option create a record, view all the student data, edit or delete it.
+					It uses MySQL database where data is persisted.<br/>
+					Technologies and tools used in project:
+					<ul style="list-style-type:disc;">
+						<li>Python,</li>
+						<li>Flask framework,</li>
+						<li>MySQL,</li>
+						<li>HTML and bootstrap,</li>
+						<li>PyCharm IDE,</li>
+						<li>WampServer.</li>
+					</ul> 
+				</p>
+			</div>
+			
+			<div class="row mt-md-4">
+				<div class="col-md-4 text1">
+					CREATE FUNCTION
+				</div>
+				<div class="col-md-8 photo">
+					<img src="photo/create.png" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+			
+			<div class="row mt-md-4">
+				<div class="col-md-4 text1 ml-md-5">
+					READ FUNCTION
+				</div>
+				<div class="col-md-8 photo">
+					<img src="photo/read.png" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+			
+			<div class="row mt-md-4">
+				<div class="col-md-4 text1">
+					UPDATE FUNCTION
+				</div>
+				<div class="col-md-8 photo">
+					<img src="photo/update.png" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+			
+			<div class="row mt-md-4">
+				<div class="col-md-4 text1">
+					DELETE FUNCTION
+				</div>
+				<div class="col-md-8 photo">
+					<img src="photo/delete.png" class="img-responsive img-thumbnail">
+				</div>
+			</div>
+		</div>
+		
+		<div class="row mt-md-4 project2" id="scroll2">
+			<div class="col-md-12 text">
+				<h3>Other small projects</h3>
+				<p>
+					I am currently working on new projects, they will appear on the website very soon.
+				</p>
+			</div>
+		</div>
+	
+
       <div class="row">
         <div class="col-md-12 no-padding">
           <div class="p-md-4 m-md-2 rectangle">
@@ -111,7 +115,7 @@
           </div>          
         </div>
       </div>
-    </div>
+    
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
